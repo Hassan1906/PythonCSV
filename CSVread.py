@@ -8,6 +8,6 @@ with open('testCSV.csv') as csv_file:
             print(f'Column names are {", ".join(row)}')
             line_count += 1
         else:
-            print(f'\t{row[0]} Cost {row[1]} , Sold {row[2]}, Profit {row[3]}')
-            line_count += 1
+            print(f'\t{row[0]}  {row[1]} , Sold {row[2]}, Profit {row[3]}')
+            line_count += 1 
     print(f'Processed {line_count} lines.')
